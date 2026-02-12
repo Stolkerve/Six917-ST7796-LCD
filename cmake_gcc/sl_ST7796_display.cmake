@@ -162,7 +162,7 @@ target_compile_options(slc PUBLIC
     $<$<COMPILE_LANGUAGE:C>:-ffunction-sections>
     $<$<COMPILE_LANGUAGE:C>:-fomit-frame-pointer>
     $<$<COMPILE_LANGUAGE:C>:-g>
-    "$<$<COMPILE_LANGUAGE:C>:SHELL:-Wall -Werror -Wno-error=unused-parameter>"
+    "$<$<COMPILE_LANGUAGE:C>:SHELL:-Wall -Werror -Wno-error=unused-parameter -Wno-error=type-limits>"
     $<$<COMPILE_LANGUAGE:C>:-Wno-error=deprecated-declarations>
     $<$<COMPILE_LANGUAGE:C>:-mcpu=cortex-m4>
     $<$<COMPILE_LANGUAGE:C>:-fno-lto>

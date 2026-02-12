@@ -83,7 +83,10 @@
                 "${workspaceFolder}/vendors/lvgl/src/font",
                 "${workspaceFolder}/vendors/lvgl/src/hal",
                 "${workspaceFolder}/vendors/lvgl/src/misc",
-                "${workspaceFolder}/vendors/lvgl/src/widgets"
+                "${workspaceFolder}/vendors/lvgl/src/widgets",
+                "${workspaceFolder}/vendors/services_mipi_dbi/inc/si91x",
+                "${workspaceFolder}/vendors/services_mipi_dbi/inc",
+                "${workspaceFolder}/vendors/lvgl/src/extra/libs/qrcode"
             ],
             "defines": [
                 "SIWG917M111MGTBA=1",
