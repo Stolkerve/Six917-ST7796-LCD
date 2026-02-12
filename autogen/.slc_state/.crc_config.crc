@@ -1,0 +1,9 @@
+#CRC Codes for initially generated config files -- do not modify!
+adafruit_st7789_spi_config.h=241641052
+lv_conf.h=-1477214771
+sl_core_config.h=-2018153270
+sl_si91x_gspi_common_config.h=2029155083
+sl_si91x_gspi_config.h=1978602558
+sl_si91x_psram_aps6404l_sqh_config.h=-931959785
+sl_si91x_psram_pin_config.h=-1215892472
+sl_sleeptimer_config.h=847044378
