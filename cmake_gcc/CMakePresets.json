@@ -1,38 +1,46 @@
 {
     "version": 6,
     "cmakeMinimumRequired": {
-      "major": 3,
-      "minor": 25,
-      "patch": 0
+        "major": 3,
+        "minor": 25,
+        "patch": 0
     },
     "configurePresets": [
-      {
-        "name": "project",
-        "displayName": "Configure sl_ST7796_display",
-        "generator": "Ninja Multi-Config",
-        "binaryDir": "${sourceDir}/build",
-        "toolchainFile": "${sourceDir}/toolchain.cmake",
-        "cacheVariables": {
-          "CMAKE_CONFIGURATION_TYPES": "base"
+        {
+            "name": "project",
+            "displayName": "Configure sl_ST7796_display",
+            "generator": "Ninja Multi-Config",
+            "binaryDir": "${sourceDir}/build",
+            "toolchainFile": "${sourceDir}/toolchain.cmake",
+            "cacheVariables": {
+                "CMAKE_CONFIGURATION_TYPES": "base"
+            }
         }
-      }
     ],
     "buildPresets": [
-      {
-        "name": "default_config",
-        "displayName": "Build sl_ST7796_display",
-        "configurePreset": "project",
-        "configuration": "base",
-        "targets": ["sl_ST7796_display"]
-      }
+        {
+            "name": "default_config",
+            "displayName": "Build sl_ST7796_display as default_config",
+            "configurePreset": "project",
+            "configuration": "base",
+            "targets": [
+                "sl_ST7796_display"
+            ]
+        }
     ],
     "workflowPresets": [
-      {
-        "name": "project",
-        "steps": [
-          {"type": "configure", "name": "project"},
-          {"type": "build", "name": "default_config"}
-        ]
-      }
+        {
+            "name": "project",
+            "steps": [
+                {
+                    "type": "configure",
+                    "name": "project"
+                },
+                {
+                    "type": "build",
+                    "name": "default_config"
+                }
+            ]
+        }
     ]
-  }
+}
