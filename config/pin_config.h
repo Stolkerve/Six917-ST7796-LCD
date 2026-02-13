@@ -149,6 +149,7 @@
 #ifndef _PIN                                    
 #define _PIN                                     6
 #endif
+#endif
 
 
 
