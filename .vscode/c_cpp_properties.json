@@ -83,7 +83,8 @@
                 "${workspaceFolder}/vendors/lvgl/src/misc",
                 "${workspaceFolder}/vendors/lvgl/src/widgets",
                 "${workspaceFolder}/vendors/services_mipi_dbi/inc/si91x",
-                "${workspaceFolder}/vendors/services_mipi_dbi/inc"
+                "${workspaceFolder}/vendors/services_mipi_dbi/inc",
+                "${workspaceFolder}/vendors/services_mipi_dbi/src"
             ],
             "defines": [
                 "SIWG917M111MGTBA=1",
