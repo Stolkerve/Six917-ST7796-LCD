@@ -5,11 +5,11 @@
   "name" : "Silicon-Laboratories",
   "documentNamespace" : "https://silabs.com",
   "creationInfo" : {
-    "created" : "2026-02-10T20:40:20Z",
+    "created" : "2026-02-13T13:18:13Z",
     "creators" : [ "Tool: Silicon Labs Configuration Tooling" ]
   },
   "comment" : "TERMS OF USE - SILICON LABORATORIES INC.\n(With respect to Silicon Labs software components, this Software Bill of Materials (SBOM) is based upon Silicon Labs'\nreview and analysis of the code version when released.  It is provided \"AS IS\" and does not modify, change or alter\nthe terms or conditions of your use of Silicon Labs' software and/or SDKs based upon license terms and/or agreements\nassociated with this software or SDKs when distributed to you, received by you, or installed by you.  Further, no\nwarranties or obligations are created by this SBOM.  It is your obligation to comply with the terms of licenses\nreferenced in this SBOM.)",
-  "documentDescribes" : [ "SPDXRef-wiseconnect3_sdk-3.5.2", "SPDXRef-simplicity_sdk-2025.6.2", "SPDXRef-third_party_hw_drivers-4.4.1" ],
+  "documentDescribes" : [ "SPDXRef-wiseconnect3_sdk-3.5.2", "SPDXRef-simplicity_sdk-2025.6.2" ],
   "packages" : [ {
     "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2",
     "name" : "WiSeConnect 3 SDK",
@@ -28,6 +28,22 @@
   }, {
     "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-brd2605a",
     "name" : "BRD2605A",
+    "versionInfo" : "3.5.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: NOASSERTION",
+    "licenseConcluded" : "Zlib"
+  }, {
+    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh",
+    "name" : "APS6404L_SQH PSRAM Device",
+    "versionInfo" : "3.5.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: NOASSERTION",
+    "licenseConcluded" : "MSLA"
+  }, {
+    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-psram_core",
+    "name" : "PSRAM Core",
     "versionInfo" : "3.5.2",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -58,6 +74,14 @@
     "supplier" : "Organization: NOASSERTION",
     "licenseConcluded" : "Zlib"
   }, {
+    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x",
+    "name" : "Sleep Timer for Si91x",
+    "versionInfo" : "3.5.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: NOASSERTION",
+    "licenseConcluded" : "Zlib"
+  }, {
     "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-syscalls",
     "name" : "System Calls",
     "versionInfo" : "3.5.2",
@@ -68,6 +92,14 @@
   }, {
     "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_opamp",
     "name" : "OPAMP",
+    "versionInfo" : "3.5.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: NOASSERTION",
+    "licenseConcluded" : "Zlib"
+  }, {
+    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers",
+    "name" : "TIMERS API",
     "versionInfo" : "3.5.2",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -220,6 +252,22 @@
   }, {
     "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-cmsis_common_driver",
     "name" : "CMSIS COMMON DRIVER",
+    "versionInfo" : "3.5.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: NOASSERTION",
+    "licenseConcluded" : "Zlib"
+  }, {
+    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi",
+    "name" : "QSPI",
+    "versionInfo" : "3.5.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: NOASSERTION",
+    "licenseConcluded" : "Zlib"
+  }, {
+    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer",
+    "name" : "ROM DRIVER TIMER",
     "versionInfo" : "3.5.2",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -450,6 +498,14 @@
     "supplier" : "Organization: NOASSERTION",
     "licenseConcluded" : "MSLA"
   }, {
+    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi",
+    "name" : "ROM DRIVER QSPI",
+    "versionInfo" : "3.5.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: NOASSERTION",
+    "licenseConcluded" : "Zlib"
+  }, {
     "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-systemlevel_pll",
     "name" : "PLL",
     "versionInfo" : "3.5.2",
@@ -506,6 +562,14 @@
     "supplier" : "Organization: NOASSERTION",
     "licenseConcluded" : "Zlib"
   }, {
+    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc",
+    "name" : "SYSRTC",
+    "versionInfo" : "3.5.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: NOASSERTION",
+    "licenseConcluded" : "Zlib"
+  }, {
     "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_udma_wrapper",
     "name" : "UDMA WRAPPER",
     "versionInfo" : "3.5.2",
@@ -540,70 +604,6 @@
   }, {
     "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_crc",
     "name" : "CRC",
-    "versionInfo" : "3.5.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-psram_core",
-    "name" : "PSRAM Core",
-    "versionInfo" : "3.5.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers",
-    "name" : "TIMERS API",
-    "versionInfo" : "3.5.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi",
-    "name" : "QSPI",
-    "versionInfo" : "3.5.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer",
-    "name" : "ROM DRIVER TIMER",
-    "versionInfo" : "3.5.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi",
-    "name" : "ROM DRIVER QSPI",
-    "versionInfo" : "3.5.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh",
-    "name" : "APS6404L_SQH PSRAM Device",
-    "versionInfo" : "3.5.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "MSLA"
-  }, {
-    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x",
-    "name" : "Sleep Timer for Si91x",
-    "versionInfo" : "3.5.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc",
-    "name" : "SYSRTC",
     "versionInfo" : "3.5.2",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -649,6 +649,22 @@
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
   }, {
+    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-atomic",
+    "name" : "Atomic Operations Library",
+    "versionInfo" : "2025.6.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: Silicon Laboratories, Inc.",
+    "licenseConcluded" : "Zlib"
+  }, {
+    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-code_classification",
+    "name" : "Code Classification",
+    "versionInfo" : "2025.6.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: Silicon Laboratories, Inc.",
+    "licenseConcluded" : "Zlib"
+  }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-toolchain_variant_arm",
     "name" : "Toolchain for ARM",
     "versionInfo" : "2025.6.2",
@@ -667,6 +683,14 @@
   }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-component_catalog",
     "name" : "Component Catalog",
+    "versionInfo" : "2025.6.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: Silicon Laboratories, Inc.",
+    "licenseConcluded" : "Zlib"
+  }, {
+    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-sl_core",
+    "name" : "core",
     "versionInfo" : "2025.6.2",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -696,6 +720,14 @@
     } ],
     "comment" : "The CMSIS is a set of tools, APIs, frameworks, and work flows"
   }, {
+    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-sleeptimer",
+    "name" : "Sleep Timer",
+    "versionInfo" : "2025.6.2",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: Silicon Laboratories, Inc.",
+    "licenseConcluded" : "Zlib"
+  }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-sl_common",
     "name" : "Common Functions",
     "versionInfo" : "2025.6.2",
@@ -719,53 +751,6 @@
     "downloadLocation" : "NOASSERTION",
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-atomic",
-    "name" : "Atomic Operations Library",
-    "versionInfo" : "2025.6.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-code_classification",
-    "name" : "Code Classification",
-    "versionInfo" : "2025.6.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-sl_core",
-    "name" : "core",
-    "versionInfo" : "2025.6.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.2-sleeptimer",
-    "name" : "Sleep Timer",
-    "versionInfo" : "2025.6.2",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-third_party_hw_drivers-4.4.1",
-    "name" : "Third Party Hardware Drivers",
-    "versionInfo" : "4.4.1",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION"
-  }, {
-    "SPDXID" : "SPDXRef-third_party_hw_drivers-4.4.1-mipi_dbi_spi_si91x",
-    "name" : "MIPI Display Bus Interface for si91x devices (SPI - 4Wire)",
-    "versionInfo" : "4.4.1",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: NOASSERTION",
-    "licenseConcluded" : "NOASSERTION"
   } ],
   "relationships" : [ {
     "spdxElementId" : "SPDXRef-DOCUMENT",
@@ -776,16 +761,20 @@
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2",
     "relationshipType" : "DESCRIBES"
   }, {
-    "spdxElementId" : "SPDXRef-DOCUMENT",
-    "relatedSpdxElement" : "SPDXRef-third_party_hw_drivers-4.4.1",
-    "relationshipType" : "DESCRIBES"
-  }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
     "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-SIWG917M111MGTBA",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
     "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-brd2605a",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
+    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
+    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-psram_core",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
@@ -801,11 +790,19 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
+    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
     "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-syscalls",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
     "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_opamp",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
+    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
@@ -882,6 +879,14 @@
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
     "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-cmsis_common_driver",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
+    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
+    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
@@ -997,6 +1002,10 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
+    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
     "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-systemlevel_pll",
     "relationshipType" : "CONTAINS"
   }, {
@@ -1025,6 +1034,10 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
+    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
     "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_udma_wrapper",
     "relationshipType" : "CONTAINS"
   }, {
@@ -1044,38 +1057,6 @@
     "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_crc",
     "relationshipType" : "CONTAINS"
   }, {
-    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
-    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-psram_core",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
-    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
-    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
-    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
-    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
-    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
-    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-wiseconnect3_sdk-3.5.2",
-    "relatedSpdxElement" : "SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc",
-    "relationshipType" : "CONTAINS"
-  }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-sl_main",
     "relationshipType" : "CONTAINS"
@@ -1093,6 +1074,14 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
+    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-atomic",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
+    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-code_classification",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-toolchain_variant_arm",
     "relationshipType" : "CONTAINS"
   }, {
@@ -1105,12 +1094,20 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
+    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-sl_core",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-cmsis_core",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2-cmsis_core",
     "relatedSpdxElement" : "SPDXRef-cmsis_core-5.8.0",
     "relationshipType" : "ANCESTOR_OF"
+  }, {
+    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
+    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-sleeptimer",
+    "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-sl_common",
@@ -1122,26 +1119,6 @@
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-sl_main_process_action",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-atomic",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-code_classification",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-sl_core",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.2",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.2-sleeptimer",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-third_party_hw_drivers-4.4.1",
-    "relatedSpdxElement" : "SPDXRef-third_party_hw_drivers-4.4.1-mipi_dbi_spi_si91x",
     "relationshipType" : "CONTAINS"
   } ]
 }

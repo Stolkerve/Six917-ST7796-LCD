@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2026-02-10T20:40:20Z",
+    "timestamp" : "2026-02-13T13:18:13Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -39,6 +39,24 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.2:psram_aps6404l_sqh",
+      "name" : "APS6404L_SQH PSRAM Device",
+      "version" : "3.5.2",
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.2:psram_core",
+      "name" : "PSRAM Core",
+      "version" : "3.5.2",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "wiseconnect3_sdk:3.5.2:si91x_memory_default_config",
       "name" : "Default RAM Memory Configuration",
       "version" : "3.5.2",
@@ -66,6 +84,15 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.2:sleeptimer_si91x",
+      "name" : "Sleep Timer for Si91x",
+      "version" : "3.5.2",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "wiseconnect3_sdk:3.5.2:syscalls",
       "name" : "System Calls",
       "version" : "3.5.2",
@@ -77,6 +104,15 @@
       "type" : "library",
       "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_opamp",
       "name" : "OPAMP",
+      "version" : "3.5.2",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_timers",
+      "name" : "TIMERS API",
       "version" : "3.5.2",
       "licenses" : [ {
         "expression" : "Zlib"
@@ -248,6 +284,24 @@
       "type" : "library",
       "bom-ref" : "wiseconnect3_sdk:3.5.2:cmsis_common_driver",
       "name" : "CMSIS COMMON DRIVER",
+      "version" : "3.5.2",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_qspi",
+      "name" : "QSPI",
+      "version" : "3.5.2",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.2:romdriver_timer",
+      "name" : "ROM DRIVER TIMER",
       "version" : "3.5.2",
       "licenses" : [ {
         "expression" : "Zlib"
@@ -507,6 +561,15 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.2:romdriver_qspi",
+      "name" : "ROM DRIVER QSPI",
+      "version" : "3.5.2",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "wiseconnect3_sdk:3.5.2:systemlevel_pll",
       "name" : "PLL",
       "version" : "3.5.2",
@@ -570,6 +633,15 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_sysrtc",
+      "name" : "SYSRTC",
+      "version" : "3.5.2",
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_udma_wrapper",
       "name" : "UDMA WRAPPER",
       "version" : "3.5.2",
@@ -608,78 +680,6 @@
       "type" : "library",
       "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_crc",
       "name" : "CRC",
-      "version" : "3.5.2",
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.2:psram_core",
-      "name" : "PSRAM Core",
-      "version" : "3.5.2",
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_timers",
-      "name" : "TIMERS API",
-      "version" : "3.5.2",
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_qspi",
-      "name" : "QSPI",
-      "version" : "3.5.2",
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.2:romdriver_timer",
-      "name" : "ROM DRIVER TIMER",
-      "version" : "3.5.2",
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.2:romdriver_qspi",
-      "name" : "ROM DRIVER QSPI",
-      "version" : "3.5.2",
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.2:psram_aps6404l_sqh",
-      "name" : "APS6404L_SQH PSRAM Device",
-      "version" : "3.5.2",
-      "licenses" : [ {
-        "expression" : "MSLA"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.2:sleeptimer_si91x",
-      "name" : "Sleep Timer for Si91x",
-      "version" : "3.5.2",
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "wiseconnect3_sdk:3.5.2:rsilib_sysrtc",
-      "name" : "SYSRTC",
       "version" : "3.5.2",
       "licenses" : [ {
         "expression" : "Zlib"
@@ -745,6 +745,30 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:atomic",
+      "name" : "Atomic Operations Library",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:code_classification",
+      "name" : "Code Classification",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.2:toolchain_variant_arm",
       "name" : "Toolchain for ARM",
       "version" : "2025.6.2",
@@ -771,6 +795,18 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.2:component_catalog",
       "name" : "Component Catalog",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:sl_core",
+      "name" : "core",
       "version" : "2025.6.2",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -813,6 +849,18 @@
     }, {
       "scope" : "required",
       "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.2:sleeptimer",
+      "name" : "Sleep Timer",
+      "version" : "2025.6.2",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.2:sl_common",
       "name" : "Common Functions",
       "version" : "2025.6.2",
@@ -845,70 +893,6 @@
       },
       "licenses" : [ {
         "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.2:atomic",
-      "name" : "Atomic Operations Library",
-      "version" : "2025.6.2",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.2:code_classification",
-      "name" : "Code Classification",
-      "version" : "2025.6.2",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.2:sl_core",
-      "name" : "core",
-      "version" : "2025.6.2",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.2:sleeptimer",
-      "name" : "Sleep Timer",
-      "version" : "2025.6.2",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    } ]
-  }, {
-    "scope" : "required",
-    "type" : "library",
-    "bom-ref" : "third_party_hw_drivers:4.4.1",
-    "name" : "Third Party Hardware Drivers",
-    "version" : "4.4.1",
-    "components" : [ {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "third_party_hw_drivers:4.4.1:mipi_dbi_spi_si91x",
-      "name" : "MIPI Display Bus Interface for si91x devices (SPI - 4Wire)",
-      "version" : "4.4.1",
-      "licenses" : [ {
-        "expression" : "NOASSERTION"
       } ]
     } ]
   } ]

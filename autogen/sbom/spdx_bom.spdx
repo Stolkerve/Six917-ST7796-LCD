@@ -13,11 +13,10 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2026-02-10T20:40:20Z
+Created: 2026-02-13T13:18:13Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-wiseconnect3_sdk-3.5.2
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2025.6.2
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-third_party_hw_drivers-4.4.1
 
 ## Package Information
 PackageName: WiSeConnect 3 SDK
@@ -29,11 +28,15 @@ PackageSupplier: Organization: NOASSERTION
 ## Relationships
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-SIWG917M111MGTBA
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-brd2605a
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-psram_core
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-si91x_memory_default_config
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-sl_gpio
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-sl_gspi
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-syscalls
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_opamp
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-wiseconnect_toolchain_gcc_standard
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_egpio
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-cmsis_usart
@@ -53,6 +56,8 @@ Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-systemlevel_bod
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-cmsis_udma
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-cmsis_common_driver
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_udma
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-sl_gpio_peripheral
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_udma
@@ -81,6 +86,7 @@ Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_egpio
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-systemlevel_temp_sensor
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-si91x_device_init_nvic
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-systemlevel_pll
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_board
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-brd2605a_config
@@ -88,19 +94,12 @@ Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-si91x_debug
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-si91x_common_flash
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_chip
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_udma_wrapper
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-si91x_stack_size_configuration
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-cmsis_usart_driver
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_ulpss
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_crc
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-psram_core
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2 CONTAINS SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc
 
 ## Package Information
 PackageName: SIWG917M111MGTBA
@@ -123,6 +122,28 @@ PackageSupplier: Organization: NOASSERTION
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-brd2605a CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
+
+## Package Information
+PackageName: APS6404L_SQH PSRAM Device
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh
+PackageVersion: 3.5.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
+
+## Package Information
+PackageName: PSRAM Core
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-psram_core
+PackageVersion: 3.5.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-psram_core CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
 
 ## Package Information
 PackageName: Default RAM Memory Configuration
@@ -158,6 +179,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-sl_gspi CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
 
 ## Package Information
+PackageName: Sleep Timer for Si91x
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x
+PackageVersion: 3.5.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
+
+## Package Information
 PackageName: System Calls
 SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-syscalls
 PackageVersion: 3.5.2
@@ -178,6 +210,17 @@ PackageSupplier: Organization: NOASSERTION
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_opamp CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
+
+## Package Information
+PackageName: TIMERS API
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers
+PackageVersion: 3.5.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
 
 ## Package Information
 PackageName: GCC Toolchain Standard Linker
@@ -387,6 +430,28 @@ PackageSupplier: Organization: NOASSERTION
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-cmsis_common_driver CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
+
+## Package Information
+PackageName: QSPI
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi
+PackageVersion: 3.5.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
+
+## Package Information
+PackageName: ROM DRIVER TIMER
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer
+PackageVersion: 3.5.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
 
 ## Package Information
 PackageName: UDMA
@@ -697,6 +762,17 @@ PackageLicenseConcluded: MSLA
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-si91x_device_init_nvic CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
 
 ## Package Information
+PackageName: ROM DRIVER QSPI
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi
+PackageVersion: 3.5.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
+
+## Package Information
 PackageName: PLL
 SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-systemlevel_pll
 PackageVersion: 3.5.2
@@ -774,6 +850,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_chip CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
 
 ## Package Information
+PackageName: SYSRTC
+SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc
+PackageVersion: 3.5.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
+
+## Package Information
 PackageName: UDMA WRAPPER
 SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_udma_wrapper
 PackageVersion: 3.5.2
@@ -829,94 +916,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_crc CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
 
 ## Package Information
-PackageName: PSRAM Core
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-psram_core
-PackageVersion: 3.5.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-psram_core CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
-
-## Package Information
-PackageName: TIMERS API
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers
-PackageVersion: 3.5.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_timers CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
-
-## Package Information
-PackageName: QSPI
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi
-PackageVersion: 3.5.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_qspi CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
-
-## Package Information
-PackageName: ROM DRIVER TIMER
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer
-PackageVersion: 3.5.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_timer CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
-
-## Package Information
-PackageName: ROM DRIVER QSPI
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi
-PackageVersion: 3.5.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-romdriver_qspi CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
-
-## Package Information
-PackageName: APS6404L_SQH PSRAM Device
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh
-PackageVersion: 3.5.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-psram_aps6404l_sqh CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
-
-## Package Information
-PackageName: Sleep Timer for Si91x
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x
-PackageVersion: 3.5.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-sleeptimer_si91x CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
-
-## Package Information
-PackageName: SYSRTC
-SPDXID: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc
-PackageVersion: 3.5.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-wiseconnect3_sdk-3.5.2-rsilib_sysrtc CONTAINED_BY SPDXRef-wiseconnect3_sdk-3.5.2
-
-## Package Information
 PackageName: Simplicity SDK Suite
 SPDXID: SPDXRef-simplicity_sdk-2025.6.2
 PackageVersion: 2025.6.2
@@ -928,17 +927,17 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-status
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-event_handler
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_main_memory_init
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-atomic
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-code_classification
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-toolchain_variant_arm
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_assert
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-component_catalog
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-cmsis_core
+Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sleeptimer
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_common
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_main_init
 Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_main_process_action
-Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-atomic
-Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-code_classification
-Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sl_core
-Relationship: SPDXRef-simplicity_sdk-2025.6.2 CONTAINS SPDXRef-simplicity_sdk-2025.6.2-sleeptimer
 
 ## Package Information
 PackageName: System Setup (sl_main)
@@ -985,6 +984,28 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.2-sl_main_memory_init CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
+PackageName: Atomic Operations Library
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-atomic
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-atomic CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
+PackageName: Code Classification
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-code_classification
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-code_classification CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
 PackageName: Toolchain for ARM
 SPDXID: SPDXRef-simplicity_sdk-2025.6.2-toolchain_variant_arm
 PackageVersion: 2025.6.2
@@ -1018,6 +1039,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.2-component_catalog CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
+PackageName: core
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-sl_core
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-sl_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
+
+## Package Information
 PackageName: CMSIS-Core
 SPDXID: SPDXRef-simplicity_sdk-2025.6.2-cmsis_core
 PackageVersion: 2025.6.2
@@ -1042,6 +1074,17 @@ ExternalRef: PACKAGE-MANAGER purl pkg:github/ARM-software/CMSIS_5@5.8.0
 PackageComment: <text>The CMSIS is a set of tools, APIs, frameworks, and work flows</text>
 ## Relationships
 Relationship: SPDXRef-cmsis_core-5.8.0 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.2-cmsis_core
+
+## Package Information
+PackageName: Sleep Timer
+SPDXID: SPDXRef-simplicity_sdk-2025.6.2-sleeptimer
+PackageVersion: 2025.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.2-sleeptimer CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
 
 ## Package Information
 PackageName: Common Functions
@@ -1075,68 +1118,3 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.2-sl_main_process_action CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
-
-## Package Information
-PackageName: Atomic Operations Library
-SPDXID: SPDXRef-simplicity_sdk-2025.6.2-atomic
-PackageVersion: 2025.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.2-atomic CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
-
-## Package Information
-PackageName: Code Classification
-SPDXID: SPDXRef-simplicity_sdk-2025.6.2-code_classification
-PackageVersion: 2025.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.2-code_classification CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
-
-## Package Information
-PackageName: core
-SPDXID: SPDXRef-simplicity_sdk-2025.6.2-sl_core
-PackageVersion: 2025.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.2-sl_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
-
-## Package Information
-PackageName: Sleep Timer
-SPDXID: SPDXRef-simplicity_sdk-2025.6.2-sleeptimer
-PackageVersion: 2025.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.2-sleeptimer CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.2
-
-## Package Information
-PackageName: Third Party Hardware Drivers
-SPDXID: SPDXRef-third_party_hw_drivers-4.4.1
-PackageVersion: 4.4.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-## Relationships
-Relationship: SPDXRef-third_party_hw_drivers-4.4.1 CONTAINS SPDXRef-third_party_hw_drivers-4.4.1-mipi_dbi_spi_si91x
-
-## Package Information
-PackageName: MIPI Display Bus Interface for si91x devices (SPI - 4Wire)
-SPDXID: SPDXRef-third_party_hw_drivers-4.4.1-mipi_dbi_spi_si91x
-PackageVersion: 4.4.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: NOASSERTION
-PackageLicenseConcluded: NOASSERTION
-## Relationships
-Relationship: SPDXRef-third_party_hw_drivers-4.4.1-mipi_dbi_spi_si91x CONTAINED_BY SPDXRef-third_party_hw_drivers-4.4.1

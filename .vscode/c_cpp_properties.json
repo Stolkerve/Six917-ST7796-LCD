@@ -7,8 +7,6 @@
                 "${workspaceFolder}/config",
                 "${workspaceFolder}/autogen",
                 "${workspaceFolder}/.",
-                "${PKG_PATH}/../../../dev/third_party_hw_drivers_extension/driver/public/silabs/services_mipi_dbi/inc",
-                "${PKG_PATH}/../../../dev/third_party_hw_drivers_extension/driver/public/silabs/services_mipi_dbi/inc/si91x",
                 "/Users/sebas/.silabs/slt/installs/conan/p/simpleb526998f4a4d/p/../../wisece6a05cd369ee2/p/components/device/silabs/si91x/mcu/drivers/cmsis_driver/CMSIS/Driver/Include",
                 "/Users/sebas/.silabs/slt/installs/conan/p/simpleb526998f4a4d/p/../../wisece6a05cd369ee2/p/components/device/silabs/si91x/mcu/drivers/cmsis_driver",
                 "/Users/sebas/.silabs/slt/installs/conan/p/simpleb526998f4a4d/p/../../wisece6a05cd369ee2/p/components/device/silabs/si91x/mcu/core/common/inc",
