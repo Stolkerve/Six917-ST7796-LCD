@@ -29,6 +29,51 @@
 // [ULP_SSI]$
 
 // $[GSPI_MASTER]
+// GSPI_MASTER SCK_ on GPIO_25
+#ifndef GSPI_MASTER_SCK__PORT                   
+#define GSPI_MASTER_SCK__PORT                    HP
+#endif
+#ifndef GSPI_MASTER_SCK__PIN                    
+#define GSPI_MASTER_SCK__PIN                     25
+#endif
+#ifndef GSPI_MASTER_SCK_LOC                     
+#define GSPI_MASTER_SCK_LOC                      1
+#endif
+
+// GSPI_MASTER CS0_ on GPIO_28
+#ifndef GSPI_MASTER_CS0__PORT                   
+#define GSPI_MASTER_CS0__PORT                    HP
+#endif
+#ifndef GSPI_MASTER_CS0__PIN                    
+#define GSPI_MASTER_CS0__PIN                     28
+#endif
+#ifndef GSPI_MASTER_CS0_LOC                     
+#define GSPI_MASTER_CS0_LOC                      5
+#endif
+
+// GSPI_MASTER MOSI_ on GPIO_27
+#ifndef GSPI_MASTER_MOSI__PORT                  
+#define GSPI_MASTER_MOSI__PORT                   HP
+#endif
+#ifndef GSPI_MASTER_MOSI__PIN                   
+#define GSPI_MASTER_MOSI__PIN                    27
+#endif
+#ifndef GSPI_MASTER_MOSI_LOC                    
+#define GSPI_MASTER_MOSI_LOC                     17
+#endif
+
+// GSPI_MASTER MISO_ on GPIO_26
+#ifndef GSPI_MASTER_MISO__PORT                  
+#define GSPI_MASTER_MISO__PORT                   HP
+#endif
+#ifndef GSPI_MASTER_MISO__PIN                   
+#define GSPI_MASTER_MISO__PIN                    26
+#endif
+#ifndef GSPI_MASTER_MISO_LOC                    
+#define GSPI_MASTER_MISO_LOC                     22
+#endif
+#endif
+
 // [GSPI_MASTER]$
 
 // $[I2S0]
@@ -148,7 +193,6 @@
 #endif
 #ifndef _PIN                                    
 #define _PIN                                     6
-#endif
 #endif
 
 
