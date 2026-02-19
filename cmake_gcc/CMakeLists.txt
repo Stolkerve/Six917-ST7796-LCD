@@ -26,6 +26,8 @@ target_compile_definitions(sl_ST7796_display PUBLIC
 
 target_compile_options(sl_ST7796_display PUBLIC
     # Set additional compiler flags here
+    $<$<COMPILE_LANGUAGE:C>:-Wno-error=type-limits>
+    $<$<COMPILE_LANGUAGE:C>:-Wno-error=unused-parameter>
 )
 
 target_link_options(sl_ST7796_display PUBLIC
